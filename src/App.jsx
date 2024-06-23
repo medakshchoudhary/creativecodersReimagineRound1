@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './assets/components/Navbar';
+import Navbar from './components/Navbar';
+import "../src/assets/fonts.css"
 
 
 function App() {

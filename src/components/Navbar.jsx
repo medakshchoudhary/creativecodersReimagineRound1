@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+const navbaritems = ["Add Restaurant","Login","Sign Up"]
 function Navbar() {
   return (
     <div className="Navbar flex items-center justify-between">
@@ -7,7 +9,7 @@ function Navbar() {
         <img className="h-11" src="/src/assets/images/logo-transformed.png" alt="" />
       </div>
       <div className="links flex gap-4">
-        {["Add Restaurant","Login","Sign Up"].map((item, index) => (
+        {navbaritems.map((item, index) => (
           <h1 className="font-normal text-[1.5vw]" key={index}>{item}</h1>
           ))}
       </div>
