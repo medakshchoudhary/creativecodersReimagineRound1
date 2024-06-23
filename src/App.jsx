@@ -1,14 +1,20 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import "../src/assets/fonts.css"
-
+import { Container } from '@mui/material';
+import Hero from './components/Hero';
+import Cravings from './components/Cravings';
+import Search from './components/Search';
 
 function App() {
   return (
-    <div className="bg-white w-full min-h-screen font-metropolis px-7 py-5">
+    <Container maxWidth="xl">
       <Navbar />
-
-    </div>
+      <Hero/>
+      <Cravings/>
+      <Search/>
+    </Container>
+   
   )
 }
 

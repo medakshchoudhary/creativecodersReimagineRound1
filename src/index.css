@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+#Hero{
+    position: relative;
+}
+
+#Hero::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('./images/banner.jpg') no-repeat center center/cover;
+    opacity: 0.9;
+    z-index: -1;
+
+}
