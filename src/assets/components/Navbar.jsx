@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="Navbar flex items-center justify-between">
       <div className="logo">
-        <img className="h-11" src="/src/assets/images/logo-transformed.png" alt="" />
+        <img className="h-11" src="/images/logo-transformed.png" alt="" />
       </div>
       <div className="links flex gap-4">
         {["Add Restaurant","Login","Sign Up"].map((item, index) => (
