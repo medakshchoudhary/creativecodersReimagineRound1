@@ -7,15 +7,13 @@ function Navbar() {
         <img className="h-9" src="/images/logo-transformed.png" alt="" />
       </div>
       <div className="links flex gap-5">
-        {["Add Restaurant","Login","Sign Up"].map((item, index) => (
-          <h1 className="font-semibold text-[1.3vw]" key={index}>{item}</h1>
-          ))}
+        {["Add Restaurant","Login","Sign Up","Contact Us"].map((item, index) => {
+          return (
+            <h1 className={`font-normal text-[1.5vw] ${index === 3 && "ml-48"}`} key={index}>{item}</h1>
+          );
+        })}
       </div>
-      <div className="links flex gap-4">
-        {["Contact Us"].map((item, index) => (
-          <h1 className="font-semibold text-[1.3vw]" key={index}>{item}</h1>
-          ))}
-      </div>
+      
     </div>
   )
 }
