@@ -5,7 +5,7 @@ import Page1 from './assets/components/Page1';
 
 function App() {
   return (
-    <div className="bg-white w-full min-h-screen font-metropolis px-7 py-3">
+    <div className="bg-white w-full min-h-screen font-metropolis">
       <Navbar />
       <Page1 />
     </div>
