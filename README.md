@@ -1,6 +1,6 @@
 # Zomato Reimagined
 
-This is a reimagined form of the main Zomato website. This is the Zomato Reimagined website with a totally new look. This project is for a competition known as Reimagined by Sherins.
+This is a reimagined form of the main Zomato website. This is the Zomato Reimagined website with a totally new look. This project is for a competition known as Reimagined by Sheryians.
 
 ## Installation
 
