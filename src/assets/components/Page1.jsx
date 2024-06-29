@@ -21,11 +21,12 @@ function Page1() {
             transition={{
               duration: 2,
               delay: 1,
+              ease: "easeInOut"
             }}
           >
             <img
               className="mr-[1vw] ml-[0.5vw] h-[4.8vw] rounded-md relative bottom-[1.2vw]"
-              src="/public/images/zomato-red.png"
+              src="/images/zomato-red.png"
               alt=""
             />
           </motion.div>
