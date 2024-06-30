@@ -3,8 +3,9 @@ import { motion } from 'framer-motion';
 
 function Page1() {
   return (
-    <div className="relative banner w-full overflow-hidden">
-      <img className="w-11 absolute z-10 right-0" src="/images/side_logo-transformed.png" alt="" />
+    <div className="relative LandingPage w-full">
+      <div className="banner">
+      <img href="#" className="w-12 absolute z-10 right-0 hover:cursor-pointer" src="/images/side_logo-transformed.png" alt="" />
       <div className="absolute textstructure z-10 text-white px-7 py-[14vh]">
         <div className="masker">
           <div className="w-fit flex items-end overflow-hidden">
@@ -17,11 +18,11 @@ function Page1() {
           <motion.div
             className="flex items-end overflow-hidden"
             initial={{ width: 0 }}
-            animate={{ width: "auto" }}
+            animate={{ width: 255 }}
             transition={{
               duration: 2,
-              delay: 1,
-              ease: "easeInOut"
+              delay: 0.5,
+              ease: [0.87, 0, 0.13, 1],
             }}
           >
             <img
@@ -42,7 +43,11 @@ function Page1() {
           </div>
         </div>
       </div>
+        <div className="flex justify-center full-width h-fit">
+          <a href="#" className="orderNow absolute -bottom-6 font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black text-white z-10 px-3 py-2.5 text-3xl no-underline hover:bg-white hover:text-black">Order Now</a>
+        </div>
       <img className="h-[70vh] w-full object-cover opacity-90" src="/images/banner.jpg" alt="" />
+      </div>
     </div>
   );
 }
