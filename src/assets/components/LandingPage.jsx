@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function Page1() {
   return (
-    <div className="relative LandingPage w-full">
+    <div className="relative LandingPage w-full h-[90vh]">
       <div className="banner">
         <img href="#" className="w-12 absolute z-10 right-0 hover:cursor-pointer" src="/images/side_logo-transformed.png" alt="" />
         <div className="absolute textstructure z-10 text-white px-7 py-[14vh]">
@@ -43,10 +43,9 @@ function Page1() {
             </div>
           </div>
         </div>
-          <div className="flex justify-center full-width h-fit">
+          <div className="flex justify-center">
             <motion.a
-              href="#"
-              className="orderNow absolute -bottom-6 font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black text-white z-10 px-3 py-2.5 text-3xl no-underline"
+              className="orderNow absolute bottom-24 font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black text-white z-10 px-3 py-2.5 text-3xl no-underline"
               whileHover={{ color: "black",backgroundColor: "white"}}
               whileTap={{ scale: 0.9 }}
             >
@@ -55,9 +54,9 @@ function Page1() {
           </div>
         <img className="h-[70vh] w-full object-cover opacity-90" src="/images/banner.jpg" alt="" />
       </div>
-      <div className="absolute one-liner mt-6 flex items-center justify-center w-full gap-1">
-        <h1>End Your Cravings Here</h1>
-        <motion.img src="/images/down-arrow.png" className="down-arrow w-8"
+      <div className="absolute one-liner mt-8 flex items-center justify-center w-full gap-1">
+        <h1 className="text-2xl">End Your Cravings Here</h1>
+        <motion.img src="/images/down-arrow.png" className="down-arrow w-6"
           initial={{ y: 0 }}
           animate={{ y: [5,-5] }}
           
