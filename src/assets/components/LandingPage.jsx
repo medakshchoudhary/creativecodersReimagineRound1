@@ -21,7 +21,7 @@ function Page1() {
               animate={{ width: "17vw" }}
               transition={{
                 duration: 2,
-                delay: 0.5,
+                delay: 0.2,
                 ease: [0.87, 0, 0.13, 1],
               }}
             >

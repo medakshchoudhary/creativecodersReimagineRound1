@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         metropolis: ['Metropolis', 'sans-serif'],
-    },
+      },
     },
   },
   plugins: [],
