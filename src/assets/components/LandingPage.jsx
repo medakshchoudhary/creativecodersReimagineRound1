@@ -64,7 +64,7 @@ function Page1() {
             y: {
               repeat: Infinity,
               repeatType: "reverse",
-              duration: 1,
+              duration: 0.7,
               ease: "easeIn",
             }
           }}

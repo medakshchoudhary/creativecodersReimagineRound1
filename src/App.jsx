@@ -4,6 +4,7 @@ import LandingPage from './assets/components/LandingPage';
 import Marquee from './assets/components/Marquee';
 import LocomotiveScroll from 'locomotive-scroll';
 import Search from './assets/components/Search';
+import Collections from './assets/components/Collections';
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -13,6 +14,7 @@ function App() {
       <LandingPage />
       <Marquee />
       <Search />
+      <Collections />
     </div>
   )
 }
