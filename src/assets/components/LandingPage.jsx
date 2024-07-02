@@ -14,11 +14,11 @@ function Page1() {
               </h1>
             </div>
           </div>
-          <div className="masker flex">
+          <div className="masker flex bg-green-500">
             <motion.div
               className="flex items-end overflow-hidden"
-              initial={{ width: 0 }}
-              animate={{ width: "17vw" }}
+              initial={{ clipPath: 'inset(0 100% 0 0)',width: 0 }}
+              animate={{ clipPath: 'inset(0 0% 0 0)',width: "auto" }}
               transition={{
                 duration: 2,
                 delay: 0.2,
@@ -44,22 +44,21 @@ function Page1() {
           </div>
         </div>
         <img className="h-[65vh] w-full object-cover opacity-90" src="/images/banner.jpg" alt="" />
-          <div className="flex justify-center mt-[1.2vw]">
-            <motion.a
-              className="orderNow leading-none font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black text-white z-10 px-3 py-2.5 text-3xl no-underline"
-              whileHover={{ color: "black",backgroundColor: "white"}}
-              whileTap={{ scale: 0.9 }}
-            >
-              Order Now
-            </motion.a>
-          </div>
+        <div className="flex justify-center mt-[2vw]">
+          <motion.a
+            className="orderNow leading-none font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black  text-white z-10 px-3 py-2.5 text-3xl no-underline"
+            whileHover={{ color: "black", backgroundColor: "white" }}
+            whileTap={{ scale: 0.9 }}
+          >
+            Order Now
+          </motion.a>
+        </div>
       </div>
-      <div className="absolute mt-6 one-liner flex items-center justify-center w-full gap-1">
+      <div className="absolute mt-[2vw] one-liner flex items-center justify-center w-full gap-1">
         <h1 className="text-2xl leading-none">End Your Cravings Here</h1>
         <motion.img src="/images/down-arrow.png" className="down-arrow w-6"
           initial={{ y: 0 }}
-          animate={{ y: [5,-5] }}
-          
+          animate={{ y: [5, -5] }}
           transition={{
             y: {
               repeat: Infinity,
@@ -68,7 +67,7 @@ function Page1() {
               ease: "easeIn",
             }
           }}
-        ></motion.img>
+        />
       </div>
     </div>
   );
