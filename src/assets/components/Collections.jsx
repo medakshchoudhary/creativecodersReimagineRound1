@@ -30,7 +30,7 @@ function Collections() {
             </div>
             <div className="collage flex items-center justify-between px-36">
                 <h1 className="w-[30vw] leading-none text-[3.5vw]">Share the moment of tastiest food you had and tag us on your stories for a surprise.....</h1>
-                <img className="w-[40vw]" src="/public/images/collage.png" alt="" />
+                <img className="w-[40vw]" src="/images/collage.png" alt="" />
             </div>
         </div>
     );
