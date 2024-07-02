@@ -14,11 +14,11 @@ function Page1() {
               </h1>
             </div>
           </div>
-          <div className="masker flex bg-green-500">
+          <div className="masker flex">
             <motion.div
               className="flex items-end overflow-hidden"
-              initial={{ clipPath: 'inset(0 100% 0 0)',width: 0 }}
-              animate={{ clipPath: 'inset(0 0% 0 0)',width: "auto" }}
+              initial={{ width: 0}}
+              animate={{ width: "17vw"}}
               transition={{
                 duration: 2,
                 delay: 0.2,
