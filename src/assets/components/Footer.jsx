@@ -8,11 +8,11 @@ function Footer() {
             <h2 className="text-[2vw] mr-2">Made by :</h2>
             <div className="socials flex flex-col gap-3">
                 <div className="daksh flex items-center justify-center gap-2 text-[2vw]">
-                    <a href="https://linktr.ee/dakshchoudhary">Daksh Chouhary</a>
+                    <a href="https://linktr.ee/dakshchoudhary" target="_blank" rel="noopener noreferrer">Daksh Chouhary</a>
                     <img className="w-24 rounded-md px-2 border-solid border-2 border-black" src="/images/linktree.png" alt="" />
                 </div>
                 <div className="ankijit flex items-center justify-center gap-2 text-[2vw]">
-                    <a href="https://www.linkedin.com/in/ankijit-roy-642409263/">Anikijit</a>
+                    <a href="https://www.linkedin.com/in/ankijit-roy-642409263/" target="_blank" rel="noopener noreferrer">Anikijit</a>
                     <img className="w-6" src="/images/linkedin.png" alt="" />
                 </div>
             </div>
