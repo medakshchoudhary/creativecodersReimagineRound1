@@ -9,13 +9,13 @@ import Collections from './assets/components/Collections';
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className="bg-white w-full min-h-screen font-metropolis">
+    <>
       <Navbar />
       <LandingPage />
       <Marquee />
       <Search />
       <Collections />
-    </div>
+      </>
   )
 }
 
