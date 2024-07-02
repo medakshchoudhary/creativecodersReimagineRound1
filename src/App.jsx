@@ -5,6 +5,7 @@ import Marquee from './assets/components/Marquee';
 import LocomotiveScroll from 'locomotive-scroll';
 import Search from './assets/components/Search';
 import Collections from './assets/components/Collections';
+import Footer from './assets/components/Footer';
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll();
@@ -15,6 +16,7 @@ function App() {
       <Marquee />
       <Search />
       <Collections />
+      <Footer />
     </div>
   )
 }
