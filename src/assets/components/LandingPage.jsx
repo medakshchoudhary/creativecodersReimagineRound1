@@ -9,7 +9,7 @@ function Page1() {
         <div className="absolute textstructure z-10 text-white px-7 py-[12vh]">
           <div className="masker">
             <div className="w-fit flex items-end overflow-hidden">
-              <h1 className="m-0 text-[6.7vw] uppercase">
+              <h1 className="m-0 leading-none text-[6.7vw] uppercase">
                 HUNGRY?
               </h1>
             </div>
@@ -31,13 +31,13 @@ function Page1() {
                 alt=""
               />
             </motion.div>
-            <h1 className="m-0 text-[6.7vw] uppercase">
+            <h1 className="m-0 leading-none text-[6.7vw] uppercase">
               IS HERE
             </h1>
           </div>
           <div className="masker">
             <div className="w-fit flex items-end overflow-hidden">
-              <h1 className="m-0 text-[6.7vw] uppercase">
+              <h1 className="m-0 leading-none text-[6.7vw] uppercase">
                 DELIVERING AT <span className="text-[#DA3842]">DOORSTEP</span>
               </h1>
             </div>
@@ -46,7 +46,7 @@ function Page1() {
         <img className="h-[65vh] w-full object-cover opacity-90" src="/images/banner.jpg" alt="" />
           <div className="flex justify-center mt-[1.2vw]">
             <motion.a
-              className="orderNow font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black text-white z-10 px-3 py-2.5 text-3xl no-underline"
+              className="orderNow leading-none font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black text-white z-10 px-3 py-2.5 text-3xl no-underline"
               whileHover={{ color: "black",backgroundColor: "white"}}
               whileTap={{ scale: 0.9 }}
             >
@@ -54,8 +54,8 @@ function Page1() {
             </motion.a>
           </div>
       </div>
-      <div className="absolute one-liner flex items-center justify-center w-full gap-1">
-        <h1 className="text-2xl">End Your Cravings Here</h1>
+      <div className="absolute mt-6 one-liner flex items-center justify-center w-full gap-1">
+        <h1 className="text-2xl leading-none">End Your Cravings Here</h1>
         <motion.img src="/images/down-arrow.png" className="down-arrow w-6"
           initial={{ y: 0 }}
           animate={{ y: [5,-5] }}

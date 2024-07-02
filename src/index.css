@@ -1,12 +1,17 @@
-html,body {
+/* Merged content from font.css */
+@font-face {
+    font-family: 'Metropolis';
+    src: url('./assets/fonts/Metropolis-SemiBold.woff2') format('woff2');
+}
+
+html, body {
     margin: 0;
     padding: 0;
     overflow-y: hidden;
     overflow-x: hidden;
     -webkit-user-select: none;
-    user-select: none
+    user-select: none;
 }
-@import "../src/assets/fonts.css"
 
 @tailwind base;
 @tailwind components;

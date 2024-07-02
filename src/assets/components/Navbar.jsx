@@ -11,7 +11,7 @@ function Navbar() {
           return (
             <a 
               href="#" 
-              className={`font-normal text-[1.8vw] text-black no-underline ${index === 3 && "ml-48"}`}
+              className={`font-normal text-[1.8vw] leading-none text-black no-underline ${index === 3 && "ml-48"}`}
               style={{ position: "relative" }}
               onMouseEnter={(e) => {
                 e.target.style.setProperty("background-image", "linear-gradient(to right, #000000, #000000)");
