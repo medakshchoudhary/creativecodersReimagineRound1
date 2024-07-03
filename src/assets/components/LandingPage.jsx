@@ -65,7 +65,7 @@ function Page1() {
           </div>
         </div>
         <img className="h-[65vh] w-full object-cover opacity-90" src="/images/banner.jpg" alt="" />
-        <div className="flex justify-center mt-[13vw] md:mt-[2vw]">
+        <div className="flex justify-center mt-[9vw] md:mt-[2vw]">
           <motion.a
             className="orderNow leading-none font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black text-white z-10 px-3 py-2.5 text-[8vw] md:text-3xl no-underline"
             whileHover={{ color: "black", backgroundColor: "white" }}
@@ -75,7 +75,7 @@ function Page1() {
           </motion.a>
         </div>
       </div>
-      <div className="absolute mt-[10vw] md:mt-[2vw] one-liner flex items-center justify-center w-full gap-1">
+      <div className="absolute mt-[7vw] md:mt-[2vw] one-liner flex items-center justify-center w-full gap-1">
         <h1 className="text-[5vw] ml-[6vw] md:ml-0 md:text-2xl leading-none">End Your Cravings Here</h1>
         <motion.img src="/images/down-arrow.png" className="down-arrow w-[8vw] md:w-6"
           initial={{ y: 0 }}
