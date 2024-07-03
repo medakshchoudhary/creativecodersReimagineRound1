@@ -1,7 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (menuOpen) {
+        setMenuOpen(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [menuOpen]);
 
   return (
     <div className="Navbar pl-3 pr-6 py-2 flex items-center justify-between">
