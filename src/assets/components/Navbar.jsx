@@ -51,17 +51,17 @@ function Navbar() {
         <div className="md:hidden ">
           <motion.button className="hamburger-menu" whileTap={{ backgroundColor: "grey" }} onClick={toggleMenu}>
             <motion.div
-              className="line"
+              className="line h-1"
               animate={isOpen ? { rotate: 45, y: 13 } : { rotate: 0, y: 0 }}
               transition={{ duration: 0.3 }}
-            />
+            /> 
             <motion.div
-              className="line"
+              className="line h-1"
               animate={isOpen ? { opacity: 0 } : { opacity: 1 }}
               transition={{ duration: 0.3 }}
             />
             <motion.div
-              className="line"
+              className="line h-1"
               animate={isOpen ? { rotate: -45, y: -7 } : { rotate: 0, y: 0 }}
               transition={{ duration: 0.3 }}
             />

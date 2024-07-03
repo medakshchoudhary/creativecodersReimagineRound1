@@ -56,7 +56,6 @@ html, body {
   
   .line {
     width: 100%;
-    height: 4px;
     background-color: black;
     border-radius: 2px;
   }

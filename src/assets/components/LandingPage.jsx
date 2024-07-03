@@ -11,7 +11,7 @@ function Page1() {
     >
       <div className="banner relative mt-[60px] h-[40vh] sm:h-[50vh] md:h-[60vh] lg:[70vh]">
         <img
-          className="w-12 absolute z-10 right-0 hover:cursor-pointer"
+          className="lg:w-12 md:w-10 w-8 absolute z-10 right-0 hover:cursor-pointer"
           src="/images/side_logo-transformed.png"
           alt=""
         />
@@ -53,7 +53,7 @@ function Page1() {
       </div>
       <div className="flex justify-center mt-[2vw]">
         <motion.button
-          className="orderNow lg:leading-none font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black  text-white z-10 px-3 md:py-2.5 py-2 lg:text-2xl md:text-xl text-lg  no-underline"
+          className="orderNow lg:leading-none font-bold rounded-full border-4 border-solid border-[#E6656F] bg-black  text-white z-10 px-3 md:py-2.5 py-1 lg:text-2xl md:text-xl text-lg  no-underline"
           whileHover={{ color: "black", backgroundColor: "white" }}
           whileTap={{ scale: 0.9 }}
         >
