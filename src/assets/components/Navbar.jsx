@@ -17,7 +17,7 @@ function Navbar() {
           alt=""
         />
        <motion.div
-        className="w-[60vw]  md:pt-0 pt-9 md:flex md:justify-between justify-normal md:flex-row md:static   bottom-0 top-14 md:z-10 fixed flex-col bg-white"
+        className="w-[60vw]  md:pt-0 pt-9 md:flex md:justify-between justify-normal md:flex-row md:static   bottom-0 top-12 md:z-10 fixed flex-col bg-white"
         id="navbar"
         initial={{ right: "-60vw" }}
         animate={{ right: isOpen ? "0vw" : "-60vw" }}
