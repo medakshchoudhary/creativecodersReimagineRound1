@@ -34,7 +34,7 @@ To get started with this project, follow these steps:
 
 After running the above commands, the application will start, and you can view it in your browser at `http://localhost:5173`.
 
-A live link to the project will be provided in a few weeks.
+Live link to the project: https://creativecoders-reimagine-round1.vercel.app/
 
 ## License
 
